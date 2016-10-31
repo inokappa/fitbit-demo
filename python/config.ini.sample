@@ -1,0 +1,11 @@
+[general]
+FLASK_PORT: 12345
+
+[fitbit]
+CALL_BACK_URL: http://127.0.0.1:12345/auth/fitbit_oauth2/callback
+CLIENT_ID: xxxxxx
+CLIENT_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+[mackerel]
+API_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+SERVICE_NAME: fitbit
