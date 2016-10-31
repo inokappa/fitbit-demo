@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="refresh" content="60;URL=/">
+  </head>
+  <body>
+    <h1>Hi,</h1>
+    {{ data }}
+
+    </br>
+    </br>
+    <img src="https://mackerel.io/embed/orgs/your_account/services/fitbit.png?graph=%2a&amp;period=6h" height="200" width="400">
+  </body>
+</html>

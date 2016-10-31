@@ -52,7 +52,7 @@ def root():
 def heartrate():
     if session.get('access_token') and session.get('refresh_token'):
         response = get_heartrate(session.get('access_token'), session.get('refresh_token'))
-        return json.dumps(response)
+        return render_template('heartrate.html', data=json.dumps(response))
     else:
         return redirect('/')
 
